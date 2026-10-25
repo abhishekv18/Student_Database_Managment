@@ -1,0 +1,14 @@
+{
+    // Tells VS Code how to start the application from the "Run and Debug" panel (or F5).
+    // cwd = project root folder, so the program can find db.properties.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Student Management System",
+            "request": "launch",
+            "mainClass": "studentmanagement.Main",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

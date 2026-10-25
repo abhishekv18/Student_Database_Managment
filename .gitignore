@@ -1,0 +1,13 @@
+# Local database settings contain your MySQL password - never commit them
+db.properties
+
+# Compiled files created by Maven / VS Code
+target/
+bin/
+*.class
+
+# Editor and operating system files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
