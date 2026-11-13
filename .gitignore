@@ -1,13 +1,32 @@
-# Local database settings contain your MySQL password - never commit them
-db.properties
 
-# Compiled files created by Maven / VS Code
+# Maven build files
 target/
-bin/
-*.class
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
 
-# Editor and operating system files
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE settings
+.vscode/
 .idea/
 *.iml
+
+# Logs
+*.log
+logs/
+
+# OS generated files
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
